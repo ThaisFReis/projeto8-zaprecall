@@ -1,0 +1,185 @@
+body{
+    background-color: #FB6B6B;
+    height: fit-content;
+    width: 100%;
+    min-width: 255px;
+
+    font-family: 'Recursive', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+.root{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.displaynone{
+    display: none;
+}
+
+/*-----------Página-1-----------*/
+
+.page1{
+    width: 100%;
+    height: fit-content;
+    margin: 250px auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.page1 img{
+    position: relative;
+    width: 136px;
+    height: 161px;
+}
+
+.page1 h1{
+    position: relative;
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.012em;
+    
+    color: #FFFFFF;
+}
+
+.page1 button{
+    position: relative;
+    width: 246px;
+    height: 54px;
+    
+    background: #FFFFFF;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #D70900;
+}
+
+/*-----------Página-2-----------*/
+
+.page2{
+    width: 100%;
+    height: fit-content;
+    margin: 80px auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page2 .topo{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: auto auto 138px auto;
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.page2 .topo img{
+    position: relative;
+    width: 86.96px;
+    height: 100px;
+}
+
+.page2 .topo h1{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.012em;
+    
+    color: #FFFFFF;
+}
+
+.page2 .pergunta{
+    position: relative;
+    width: 568px;
+    height: 92px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.page2 .pergunta h2{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin: auto auto auto 23px;
+    
+    color: #333333;
+}
+
+.page2 .pergunta button{
+    width: 32px;
+    height: 37px;  
+    margin-right: 28px;  
+    border: none;
+    background-image: url(/public/ZapRecall-Recursos/seta.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.page2 footer{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    bottom: 0;
+    margin-top: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.page2 footer h3{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    
+    color: #333333;
+}
